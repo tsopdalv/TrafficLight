@@ -48,9 +48,7 @@ final class ViewController: UIViewController {
             yellowLabel.alpha = lightIsOff
             greenLabel.alpha = lightIsOn
             currentLight = .red
-            
         }
-  
     }
 }
 
@@ -60,4 +58,3 @@ extension ViewController {
         case red, yellow, green
     }
 }
-//test for github
